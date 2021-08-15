@@ -10,55 +10,49 @@
     background-image: url(img/wheat-back.jpg);
     background-position: bottom;
     background-size: cover;
-    padding-top: 60px;
+    padding-top: 52px;
     padding-bottom: 60px;
 }
 
 .container-800 {
     width: 800px;
     margin: 0 auto;
+    background-color: tomato;
 }
 
-.menu {
-    padding-top: 1px;
-}
-
-.menu::after {
-    display: table;
-    content: "";
-    clear: both;
+.menu__nav {
+    background-color: steelblue;
+    margin: 0;
+    padding: 0;
 }
 
 .menu__logo {
-    float: left;
-    margin-right: 60px;
+    display: inline-block;
+    background-color: chartreuse;
 }
 
 .menu__list {
+    display: inline-block;
     list-style: none;
-    margin-top: 10px;
-    float: right;
     padding: 0px;
-    text-align: center;
+    margin: 0px;
+
 }
 
 .menu__item {
-    float: left;
+    display: inline-block;
     padding-top: 20px;
     padding-bottom: 20px;
-    border-top: 1px solid #fff;
-    border-bottom: 1px solid #fff;
-    padding-right: 55px;
-}
-
-.menu__item:last-child {
-    padding-right: 0px;
+    background-color: chartreuse;
 }
 
 .menu__link {
     text-decoration: none;
     color: #fff;
     text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+    font-weight: 500;
 }
 
 .menu__title {
@@ -66,4 +60,5 @@
     font-size: 70px;
     font-weight: 600;
     text-align: center;
+    background-color: steelblue;
 }
