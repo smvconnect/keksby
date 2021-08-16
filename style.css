@@ -2,10 +2,6 @@
     font-family: sans-serif;
 }
 
-.page-body {
-    margin: 0px;
-}
-
 .header {
     background-image: url(img/wheat-back.jpg);
     background-position: bottom;
@@ -17,25 +13,35 @@
 .container-800 {
     width: 800px;
     margin: 0 auto;
-    background-color: tomato;
+
 }
 
 .menu__nav {
-    background-color: steelblue;
     margin: 0;
     padding: 0;
+
+
 }
 
 .menu__logo {
     display: inline-block;
-    background-color: chartreuse;
+    vertical-align: middle;
+    margin-right: 60px;
+
+}
+
+img {
+    display: block;
 }
 
 .menu__list {
     display: inline-block;
+    vertical-align: middle;
     list-style: none;
     padding: 0px;
     margin: 0px;
+
+    min-width: 600px;
 
 }
 
@@ -43,7 +49,22 @@
     display: inline-block;
     padding-top: 20px;
     padding-bottom: 20px;
-    background-color: chartreuse;
+}
+
+.menu__item:nth-child(1) {
+    float: left;
+}
+
+.menu__item:nth-child(2) {
+    margin-left: 57px;
+}
+
+.menu__item:nth-child(3) {
+    margin-left: 20px;
+}
+
+.menu__item:last-child {
+    float: right;
 }
 
 .menu__link {
@@ -52,13 +73,16 @@
     text-transform: uppercase;
     margin: 0;
     padding: 0;
-    font-weight: 500;
+    font-weight: 600;
+    line-height: 1;
 }
 
 .menu__title {
+    margin-top: 120px;
     color: #fff;
     font-size: 70px;
     font-weight: 600;
     text-align: center;
-    background-color: steelblue;
+    line-height: 1;
+
 }
