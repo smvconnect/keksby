@@ -1,13 +1,20 @@
 .page {
     font-family: sans-serif;
+
+}
+
+.page__body {
+    margin: 0;
+    padding: 0;
 }
 
 .header {
     background-image: url(img/wheat-back.jpg);
     background-position: bottom;
     background-size: cover;
-    padding-top: 52px;
-    padding-bottom: 60px;
+    padding-top: 60px;
+    padding-bottom: 84px;
+
 }
 
 .container-800 {
@@ -37,30 +44,34 @@ img {
 .menu__list {
     display: inline-block;
     vertical-align: middle;
+    position: relative;
+    top: 1px;
     list-style: none;
-    padding: 0px;
+    padding-left: 0;
     margin: 0px;
-
     min-width: 600px;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 
 }
 
 .menu__item {
     display: inline-block;
-    padding-top: 20px;
-    padding-bottom: 20px;
+
+
 }
 
 .menu__item:nth-child(1) {
     float: left;
+    margin-right: 55px;
 }
 
 .menu__item:nth-child(2) {
-    margin-left: 57px;
+    margin-right: 50px;
 }
 
 .menu__item:nth-child(3) {
-    margin-left: 20px;
+    margin-right: 54px;
 }
 
 .menu__item:last-child {
@@ -68,6 +79,7 @@ img {
 }
 
 .menu__link {
+    display: inline-block;
     text-decoration: none;
     color: #fff;
     text-transform: uppercase;
@@ -75,7 +87,22 @@ img {
     padding: 0;
     font-weight: 600;
     line-height: 1;
+    padding-top: 21px;
+    padding-bottom: 20px;
 }
+
+.menu__link:hover {
+    border-bottom: 1px solid rgba(255, 255, 255, 1);
+    margin-bottom: -1px;
+    color: #ffcb78;
+}
+
+/* .menu__link:visited {
+    border-bottom: 1px solid rgba(255, 255, 255, 1);
+    margin-bottom: -1px;
+    color: #ffcb78;
+} */
+
 
 .menu__title {
     margin-top: 120px;
@@ -85,4 +112,13 @@ img {
     text-align: center;
     line-height: 1;
 
+}
+
+.main {
+    background-color: sandybrown;
+    margin: 0;
+}
+
+h1, h2, h3 {
+    margin: 0;
 }
