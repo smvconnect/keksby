@@ -79,13 +79,6 @@ img {
     color: #ffcb78;
 }
 
-/* .menu__link:visited {
-    border-bottom: 1px solid rgba(255, 255, 255, 1);
-    margin-bottom: -1px;
-    color: #ffcb78;
-} */
-
-
 .menu__title {
     margin-top: 120px;
     color: #fff;
@@ -97,10 +90,43 @@ img {
 }
 
 .main {
-    background-color: sandybrown;
     margin: 0;
 }
 
 h1, h2, h3 {
     margin: 0;
+}
+
+.main__new {
+    width: 800px;
+    margin: 0 auto;
+    padding-top: 100px;
+
+}
+
+.bottle {
+    float: left;
+    width: 340px;
+    border-left: 1px solid rgba(0, 0, 0, 0.2);
+    border-right: 1px solid rgba(0, 0, 0, 0.2);
+    margin-left: -1px;
+    margin-right: -1px;
+    padding-left: 34px;
+    padding-right: 25px;
+}
+
+.new__title {
+    font-size: 40px;
+    text-transform: uppercase;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.bottle__title {
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.bottle__img {
+    float: left;
 }
