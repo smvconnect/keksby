@@ -1,6 +1,5 @@
 .page {
     font-family: sans-serif;
-
 }
 
 .page__body {
@@ -14,69 +13,52 @@
     background-size: cover;
     padding-top: 60px;
     padding-bottom: 84px;
-
 }
 
 .container-800 {
     width: 800px;
     margin: 0 auto;
-
 }
 
 .menu__nav {
     margin: 0;
     padding: 0;
-
-
 }
 
 .menu__logo {
-    display: inline-block;
-    vertical-align: middle;
-    margin-right: 60px;
-
+    float: left;
 }
 
 img {
     display: block;
 }
 
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
 .menu__list {
-    display: inline-block;
-    vertical-align: middle;
-    position: relative;
-    top: 1px;
+    float: right;
     list-style: none;
-    padding-left: 0;
+    padding: 0;
     margin: 0px;
-    min-width: 600px;
     border-top: 1px solid rgba(255, 255, 255, 0.2);
     border-bottom: 1px solid rgba(255, 255, 255, 0.2);
-
+    margin-top: 10px;
 }
 
 .menu__item {
-    display: inline-block;
-
-
-}
-
-.menu__item:nth-child(1) {
     float: left;
-    margin-right: 55px;
-}
+    margin-right: 54.5px;
 
-.menu__item:nth-child(2) {
-    margin-right: 50px;
-}
-
-.menu__item:nth-child(3) {
-    margin-right: 54px;
 }
 
 .menu__item:last-child {
-    float: right;
+    margin-right: 0px;
 }
+
 
 .menu__link {
     display: inline-block;
