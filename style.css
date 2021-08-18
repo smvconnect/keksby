@@ -89,10 +89,6 @@ img {
 
 }
 
-.main {
-    margin: 0;
-}
-
 h1, h2, h3 {
     margin: 0;
 }
@@ -100,33 +96,101 @@ h1, h2, h3 {
 .main__new {
     width: 800px;
     margin: 0 auto;
-    padding-top: 100px;
-
+    margin-top: 80px;
 }
 
 .bottle {
     float: left;
-    width: 340px;
-    border-left: 1px solid rgba(0, 0, 0, 0.2);
-    border-right: 1px solid rgba(0, 0, 0, 0.2);
-    margin-left: -1px;
-    margin-right: -1px;
+    position: relative;
+    width: 341px;
+    border-left: 1px solid rgba(0, 0, 0, 0.1);
+    border-right: 1px solid rgba(0, 0, 0, 0.1);
     padding-left: 34px;
-    padding-right: 25px;
+    padding-right: 24px;
+    margin-right: -1px;
+}
+
+.wrapper {
+    margin-top: 75px;
 }
 
 .new__title {
     font-size: 40px;
+    line-height: 1;
     text-transform: uppercase;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
 }
 
 .bottle__title {
     font-size: 40px;
     text-transform: uppercase;
+    margin-bottom: 20px;
+    margin-top: 20px;
+
 }
 
 .bottle__img {
     float: left;
+}
+
+.bottle__table {
+    position: absolute;
+    right: 25px;
+    border-collapse: collapse;
+    width: 150px;
+}
+
+.bottle__table td {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 10px 10px;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.bottle__composition {
+    position: absolute;
+    right: 25px;
+    top: 160px;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: left;
+    margin-top: 15px;
+    width: 150px;
+    color: #404040;
+}
+
+.bottle__disc {
+    line-height: 30px;
+    font-size: 16px;
+    color: #404040;
+    font-weight: 400;
+    text-align: left;
+    letter-spacing: normal;
+    margin-bottom: 100px;
+}
+
+.main__advantages {
+    margin-top: 110px;
+    background-color: #ffcb78;
+}
+
+.bottle__button-more {
+    color: #834700;
+    padding: 20px;
+    text-transform: uppercase;
+    border:  2px solid #834700;
+    text-decoration: none;
+}
+
+.bottle__button-buy {
+    background-color: #834700;
+    color: #fff;
+    padding: 20px;
+    text-transform: uppercase;
+    border:  2px solid #834700;
+    text-decoration: none;
+    margin-right: 15px;
 }
