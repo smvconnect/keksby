@@ -102,12 +102,17 @@ h1, h2, h3 {
 .bottle {
     float: left;
     position: relative;
-    width: 341px;
-    border-left: 1px solid rgba(0, 0, 0, 0.1);
-    border-right: 1px solid rgba(0, 0, 0, 0.1);
+    width: 340px;
     padding-left: 34px;
     padding-right: 24px;
-    margin-right: -1px;
+    border-left: 1px solid rgba(0, 0, 0, 0.1);
+    border-right: 1px solid rgba(0, 0, 0, 0.1);
+
+}
+
+.bottle:last-child {
+    border-left: transparent;
+
 }
 
 .wrapper {
@@ -126,28 +131,29 @@ h1, h2, h3 {
 .bottle__title {
     font-size: 40px;
     text-transform: uppercase;
-    margin-bottom: 20px;
-    margin-top: 20px;
-
+    margin-bottom: 25px;
+    line-height: 61px;
 }
 
 .bottle__img {
     float: left;
+    margin-left: 10px;
+    margin-bottom: 20px;
 }
 
 .bottle__table {
     position: absolute;
     right: 25px;
     border-collapse: collapse;
-    width: 150px;
+
 }
 
 .bottle__table td {
     border: 1px solid rgba(0, 0, 0, 0.1);
-    padding: 10px 10px;
+    padding: 10px 25px 10px 10px;
     font-size: 16px;
     text-transform: uppercase;
-    font-weight: 500;
+    font-weight: 600;
 }
 
 .bottle__composition {
@@ -158,7 +164,6 @@ h1, h2, h3 {
     line-height: 24px;
     text-align: left;
     margin-top: 15px;
-    width: 150px;
     color: #404040;
 }
 
