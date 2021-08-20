@@ -20,10 +20,10 @@
             <p class="menu__title">Крафтовый квас<br>всему голова!</p>
         </div>
     </header>
-        <div class="main__new ">
+        <section class="main__new ">
             <div class="container-800 clearfix">
                 <h2 class="new__title">Новинки</h2>
-                    <div class="wrapper">
+                    <div class="wrapper clearfix">
                         <div class="bottle">
                         <h3 class="bottle__title">Вахтёр</h3>
                         <table class="bottle__table">
@@ -37,13 +37,15 @@
                             </tr>
                         </table>
                         <p class="bottle__composition"> Ржаной хлеб, Вода, Солод, Соль</p>
-                        <img class="bottle__img" src="img/bottle-left.jpg" alt="Vahter">
+                        <div class="bottle__img">
+                            <img src="img/bottle-left.jpg" alt="Vahter">
+                        </div>
                         <p class="bottle__disc">Терпкий и мощный, вкус этого кваса взбодрит после тяжёлого дня и придаст сил для вечерних приключений!</p>
                         <a class="bottle__button-more"href="#">Подробнее</a>
                         <a class="bottle__button-buy" href="#">Купить</a>
                         <strong>150 Р.</strong>
-                    </div>
-                    <div class="bottle">
+                        </div>
+                        <div class="bottle">
                         <h3 class="bottle__title">Романтик</h3>
                         <table class="bottle__table">
                             <tr>
@@ -61,31 +63,35 @@
                         <a class="bottle__button-more" href="#">Подробнее</a>
                         <a class="bottle__button-buy"href="#">Купить</a>
                         <strong>90 Р.</strong>
+                        </div>
                     </div>
-                </div>
             </div>
-        </div>
+        </section>
         <section class="main__advantages">
-            <div class="advantage__item">
-                <div class="advantage__logo">
-                    <img src="img/icon-brew.png" alt="brew">
-                </div>
-                <h3>Варим сами</h3>
-                <p>Вот этими самыми руками. Экспериментируем и творим, что хотим.</p>
-            </div>
-            <div class="advantage__item">
-                <div class="advantage__logo">
-                    <img src="img/icon-matreshka.png" alt="matreshka">
-                </div>
-                <h3>Своё, родное</h3>
-                <p>Не заработка ради, а импортозамещения для. Поднимаем производство.</p>
-            </div>
-            <div class="advantage__item">
-                <div class="advantage__logo">
-                    <img src="img/icon-thumbsup.png" alt="thumbsup">
-                </div>
-                <h3>Не экономим</h3>
-                <p>Человек это то, что он ест и пьёт. У нас только качественные ингредиенты.</p>
+            <div class="container-1015 clearfix">
+                <ul class="advantage__list">
+                    <li class="advantage__item">
+                        <div class="advantage__logo">
+                            <img src="img/icon-brew.png" alt="brew">
+                        </div>
+                        <h3 class="advantage__title" >Варим сами</h3>
+                        <p class="advantage__text" >Вот этими самыми руками. Экспериментируем и творим, что хотим.</p>
+                    </li>
+                    <li class="advantage__item">
+                        <div class="advantage__logo">
+                            <img src="img/icon-matreshka.png" alt="matreshka">
+                        </div>
+                        <h3 class="advantage__title" >Своё, родное</h3>
+                        <p class="advantage__text" >Не заработка ради, а импортозамещения для. Поднимаем производство.</p>
+                    </li>
+                    <li class="advantage__item">
+                        <div class="advantage__logo">
+                            <img src="img/icon-thumbsup.png" alt="thumbsup">
+                        </div>
+                        <h3 class="advantage__title" >Не экономим</h3>
+                        <p class="advantage__text" >Человек это то, что он ест и пьёт. У нас только качественные ингредиенты.</p>
+                    </li>
+                </ul>
             </div>
         </section>
         <section class="main__history">
