@@ -225,24 +225,47 @@ img {
 
 .advantage__item {
     float: left;
-    width: 274px;
-    border-right: 1px solid rgba(0, 0, 0, 0.2);
+    width: 309px;
+    padding-top: 100px;
+    position: relative;
     padding-left: 95px;
-
 }
 
 .advantage__item:last-child {
-    border-right: transparent;
+    float: right;
+    width: 210px;
+    border-left: 1px solid rgba(0, 0, 0, 0.2);
 }
 
 .advantage__item:first-child {
+    float: left;
+    width: 304px;
+    border-right: 1px solid rgba(0, 0, 0, 0.2);
     padding-left: 0px;
 }
 
-.advantage__logo {
-    margin-bottom: 30px;
+.advantage__item::before {
+    position: absolute;
+    content: "";
     height: 68px;
+    width: 68px;
+    background-repeat: no-repeat;
+    top: 0px;
 }
+
+.advantage__item-brew::before {
+    background-image: url(img/icon-brew.png);
+}
+
+.advantage__item-matreshka::before {
+    background-image: url(img/icon-matreshka.png);
+}
+
+.advantage__item-thumbsup::before {
+    background-image: url(img/icon-thumbsup.png);
+}
+
+
 
 .advantage__title {
     margin-bottom: 20px;
