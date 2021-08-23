@@ -9,12 +9,13 @@
 </head>
 <body class="page__body">
     <header class="header">
+        <!-- <h1 class="visually-hidden">Интернет-магазин "Кваст"</h1> -->
         <div class="container-800">
             <nav class="menu__nav clearfix">
                 <div class="menu__logo">
                     <img src="img/logo.png" alt="Кваст" class="menu__img">
                 </div><ul class="menu__list">
-                    <li class="menu__item"><a href="" class="menu__link">История</a></li><li class="menu__item"><a href="" class="menu__link">Производство</a></li><li class="menu__item"><a href="" class="menu__link">Ассортимент</a></li><li class="menu__item"><a href="" class="menu__link">Где купить</a></li>
+                    <li class="menu__item"><a href="#" class="menu__link">История</a></li><li class="menu__item"><a href="#" class="menu__link">Производство</a></li><li class="menu__item"><a href="#" class="menu__link">Ассортимент</a></li><li class="menu__item"><a href="#" class="menu__link">Где купить</a></li>
                 </ul>
             </nav>
             <p class="menu__title">Крафтовый квас<br>всему голова!</p>
@@ -41,7 +42,7 @@
                             <img src="img/bottle-left.jpg" alt="Vahter">
                         </div>
                         <p class="bottle__disc">Терпкий и мощный, вкус этого кваса взбодрит после тяжёлого дня и придаст сил для вечерних приключений!</p>
-                        <a class="bottle__button-more"href="#">Подробнее</a>
+                        <a class="bottle__button-more" href="#">Подробнее</a>
                         <a class="bottle__button-buy" href="#">Купить</a>
                         <strong>150 Р.</strong>
                         </div>
@@ -61,7 +62,7 @@
                         <img class="bottle__img" src="img/bottle-right.jpg" alt="Romantic">
                         <p class="bottle__disc">Лёгкий и освежающий напиток поможет сохранять отличное настроение в течение всего дня.</p>
                         <a class="bottle__button-more" href="#">Подробнее</a>
-                        <a class="bottle__button-buy"href="#">Купить</a>
+                        <a class="bottle__button-buy" href="#">Купить</a>
                         <strong>90 Р.</strong>
                         </div>
                     </div>
@@ -86,32 +87,36 @@
             </div>
         </section>
         <section class="main__history">
-            <h2>Немного истории</h2>
-            <dl>
-                <dt>Происхождение кваса Источник:
-                    <a href="">ru.wikipedia.org</a>
-                </dt>
-                <dd>
-                    <img src="img/wiki-1.png" alt="">
-                    <p>Квас на Руси появился в X-XI веке. Само слово «квас» тоже имеет древнерусское происхождение. Помимо России квас готовят в Белоруссии, Сербии, Македонии, Словакии и многих других странах, но называется он везде одинаково — квас.</p>
-                </dd>
-                <dt>Классификация кваса Источник:
-                    <a href="">ru.wikipedia.org</a>
-                </dt>
-                <dd>
-                    <img src="img/wiki-2.png" alt="">
-                    <p>По российскому ГОСТу для промышленного изготовления — это напиток с объёмной долей этилового спирта не более 1,2%, изготовленный в результате незавершённого спиртового и молочнокислого брожения сусла.</p>
-                </dd>
-            </dl>
+            <div class="container-800">
+                <h2 class="history__title">Немного истории</h2>
+                <dl>
+                    <dt class="list__title"><span>Происхождение кваса</span> <em>Источник:
+                        <a href="#">ru.wikipedia.org</a></em>
+                    </dt>
+                    <dd class="list__discription">
+                        <img src="img/wiki-1.png" alt="">
+                        <p>Квас на Руси появился в X-XI веке. Само слово «квас» тоже имеет древнерусское происхождение. Помимо России квас готовят в Белоруссии, Сербии, Македонии, Словакии и многих других странах, но называется он везде одинаково — квас.</p>
+                    </dd>
+                    <dt class="list__title"><span>Классификация кваса</span> <em>Источник:
+                        <a href="#">ru.wikipedia.org</a></em>
+                    </dt>
+                    <dd class="list__discription">
+                        <img src="img/wiki-2.png" alt="">
+                        <p>По российскому ГОСТу для промышленного изготовления — это напиток с объёмной долей этилового спирта не более 1,2%, изготовленный в результате незавершённого спиртового и молочнокислого брожения сусла.</p>
+                    </dd>
+                </dl>
+            </div>
         </section>
         <section class="main__press">
-            <h2>Пресса о нас</h2>
-            <blockquote>
-                <img src="img/quotes.png" alt="">
-                <p>Сегодня мы провели дегустацию чего-то действительно новенького — крафтового кваса. Да, да, вы не ослышались! Спасибо Арсену и Руслану за то, что предоставили целую бочку своего напитка!</p>
-                <button>Читать далее</button>
-                <cite>Газета столичный Стольник</cite>
-            </blockquote>
+            <div class="container-800">
+                <h2 class="press__title">Пресса о нас</h2>
+                <!-- <img class="press__quotes" src="img/quotes.png" alt=""> -->
+                <blockquote class="press__blockquote clearfix">
+                    <p class="press__text">Сегодня мы провели дегустацию чего-то действительно новенького — крафтового кваса. Да, да, вы не ослышались! Спасибо Арсену и Руслану за то, что предоставили целую бочку своего напитка!</p>
+                    <cite class="press__sourse">Газета столичный Стольник</cite>
+                    <a href="#" class="press__button">Читать далее</a>
+                </blockquote>
+            </div>
         </section>
         <section class="main__catalog">
             <h2>Ассортимент</h2>
