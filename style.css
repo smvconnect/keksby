@@ -502,3 +502,17 @@ sup {
 .catalog__table th:last-child {
     text-align: right;
 }
+
+/* Order */
+
+.main__orderForm {
+    padding-top: 90px;
+    padding-bottom: 90px;
+    background-color: #ffcb78;
+}
+
+    font-size: 40px;
+    text-transform: uppercase;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 75px;

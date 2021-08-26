@@ -160,7 +160,40 @@
                 </table>
             </div>
         </section>
-        <section class="main__orderForm"></section>
+        <section class="main__orderForm">
+            <div class="container-800">
+                <h2 class="orderForm__title">Заказать</h2>
+                <p class="orderForm__text">Не ждите пока нас отрекламируют, как Вятский квас, и мы поднимем цены! Закажите настоящий крафтовый квас сейчас. При заказе от 10 баррелей - скидка 10%.</p>
+                <form action="post">
+                    <label for="name">
+                        Представьтесь:
+                        <input type="text" name="name" id="name">
+                    </label><br>
+                    <label for="phone">
+                        Номер телефона:
+                        <input type="tel" name="phone" id="phone">
+                    </label><br>
+                    <label for="add.phone">
+                        Доп. номер:
+                        <input type="tel" name="add.phone" id="add.phone">
+                    </label><br>
+                    <label for="email">
+                        Email:
+                        <input type="email" name="email" id="email">
+                    </label><br>
+                    <label for="value">Объём заказа:</label><br>
+                        <select name="value" id="value">
+                            <option value="10">От 5 до 10 баррелей в неделю</option>
+                        </select><br>
+                    <label for="comment">Доп. комментарий:
+                        <textarea name="comment" id="comment" rows="2"></textarea>
+
+
+
+
+                </form>
+            </div>
+        </section>
     <footer class="footer">
         <div class="footer__top">
             <div class="footer__logo">
