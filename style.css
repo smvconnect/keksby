@@ -446,37 +446,48 @@ img {
     border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
 
+.catalog__table tr:nth-child(4) td {
+    padding-top: 26px;
+    padding-bottom: 26px;
+}
+
+.catalog__table tr:nth-child(5) td {
+    padding-top: 26px;
+    padding-bottom: 26px;
+}
+
 .catalog__table td {
     padding-top: 24px;
     padding-bottom: 24px;
-    width: 90px;
+    width: 110px;
     text-transform: uppercase;
 }
 
 .catalog__table td:first-child {
     font-weight: 600;
     text-transform: uppercase;
-    width: 400px;
+    width: 550px;
 }
 
 .catalog__table td:nth-child(3) {
-    width: 60px;
+    width: 70px;
 }
 
 .catalog__table td:last-child {
     text-align: right;
-    width: 250px;
+    width: 200px;
 }
 
 sup {
     font-size: 8px;
-    font-weight: 400;
+    font-weight: 500;
     background-color: black;
     color: white;
     padding: 2px 5px;
-    border-radius: 3px;
+    border-radius: 2px;
     text-transform: uppercase;
-    margin-left: 25px;
+    margin-left: 20px;
+
 }
 
 .catalog__table th {
