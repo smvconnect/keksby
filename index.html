@@ -162,35 +162,42 @@
         </section>
         <section class="main__orderForm">
             <div class="container-800">
-                <h2 class="orderForm__title">Заказать</h2>
-                <p class="orderForm__text">Не ждите пока нас отрекламируют, как Вятский квас, и мы поднимем цены! Закажите настоящий крафтовый квас сейчас. При заказе от 10 баррелей - скидка 10%.</p>
-                <form action="post">
-                    <label for="name">
-                        Представьтесь:
-                        <input type="text" name="name" id="name">
-                    </label><br>
-                    <label for="phone">
-                        Номер телефона:
-                        <input type="tel" name="phone" id="phone">
-                    </label><br>
-                    <label for="add.phone">
-                        Доп. номер:
-                        <input type="tel" name="add.phone" id="add.phone">
-                    </label><br>
-                    <label for="email">
-                        Email:
+                <h2 class="order__title">Заказать</h2>
+                <p class="order__text">Не ждите пока нас отрекламируют, как Вятский квас, и мы поднимем цены! Закажите настоящий крафтовый квас сейчас. При заказе от 10 баррелей — скидка 10%.</p>
+                <form class="order__input" action="" method="post">
+                    <div class="order__group">
+                        <label for="fullname">Представьтесь:</label>
+                        <input type="text" name="fullname" id="fullname">
+                    </div>
+                    <div class="order__group clearfix">
+                        <div class="order__group-left">
+                            <label for="phone">Номер телефона:</label>
+                            <input type="tel" name="phone" id="phone">
+                        </div>
+                        <div class="order__group-right">
+                            <label for="phone_add">Доп. номер:</label>
+                            <input type="tel" name="phone_add" id="phone_add">
+                        </div>
+                    </div>
+                    <div class="order__group">
+                        <label for="email">Email:</label>
                         <input type="email" name="email" id="email">
-                    </label><br>
-                    <label for="value">Объём заказа:</label><br>
+                    </div>
+                    <div class="order__group orderValue">
+                        <label for="value">Объём заказа:</label><br>
                         <select name="value" id="value">
                             <option value="10">От 5 до 10 баррелей в неделю</option>
-                        </select><br>
-                    <label for="comment">Доп. комментарий:
-                        <textarea name="comment" id="comment" rows="2"></textarea>
-
-
-
-
+                        </select>
+                    </div>
+                    <div class="order__group comment">
+                        <label for="comment">Доп. комментарий:</label>
+                        <textarea name="comment" id="comment"  rows="2"></textarea>
+                    </div>
+                    <div class="order__group mail">
+                        <input type="checkbox" name="mailing" id="mailing" checked>
+                        <label for="mailing">Я согласен получать квасную рассылку</label>
+                    </div>
+                    <input class="btn" type="submit" value="Отправить заказ">
                 </form>
             </div>
         </section>
