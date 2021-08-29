@@ -630,31 +630,24 @@ sup {
     padding-bottom: 84px;
 }
 
-.footer__top {
-    float: left;
-    margin-bottom: 60px;
-}
-
-.footer__bottom {
-    float: left;
-    margin-bottom: 60px;
-}
-
-.menu__nav {
+.footer .menu__nav {
     margin: 0;
     padding: 0;
+    margin-bottom: 47px;
+    padding-right: 100px;
 }
 
 .footer__logo {
     float: left;
     margin-right: 131px;
+    margin-left: 37px;
 }
 
 img {
     display: block;
 }
 
-.menu__list {
+.footer .menu__list {
     float: right;
     list-style: none;
     padding: 0;
@@ -693,36 +686,60 @@ img {
 }
 
 .footer__social {
+    display: block;
     float: left;
-    margin-right: 90px;
-}
-
-.footer__link, .footer__copyright img  {
-    background-color: #1b1b1b;
-    padding: 25px;
-    border: 1px solid rgba(255, 203, 120, 0.1);
-    width: 25px;
-    height: 25px;
+    width: 220px;
+    height: 68px;
+    margin-right: 89px;
 }
 
 .footer__link {
+    font-size: 0;
+    position: relative;
     float: left;
+
 }
 
-.footer__copyright {
-    float: right;
+.insta::before {
+    position: absolute;
+    left: -1px;
+    content: "";
+    background-color: #1b1b1b;
+    padding: 25px;
+    border: 1px solid rgba(255, 203, 120, 0.1);
+    width: 20px;
+    height: 16px;
+    background-image: url(img/icon-insta.png);
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
-
-.footer__copyright img {
-    float: left;
-    margin-right: 30px;
+.fb::before {
+    position: absolute;
+    left: 70px;
+    content: "";
+    background-color: #1b1b1b;
+    padding: 25px;
+    border: 1px solid rgba(255, 203, 120, 0.1);
+    width: 20px;
+    height: 16px;
+    background-image: url(img/icon-fb.png);
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
-
-.develop {
-    color: rgba(255, 255, 255, 1);
-    float: right;
+.vk::before {
+    position: absolute;
+    left: 141px;
+    content: "";
+    background-color: #1b1b1b;
+    padding: 25px;
+    border: 1px solid rgba(255, 203, 120, 0.1);
+    width: 20px;
+    height: 16px;
+    background-image: url(img/icon-vk.png);
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .footer__text {
@@ -730,7 +747,49 @@ img {
     font-size: 14px;
     line-height: 20px;
     font-weight: 400;
-    width: 195px;
     float: left;
-    margin-right: 150px;
+    width: 195px;
+    height: 40px;
+    margin-bottom: 5px;
+
+}
+
+.footer__copyright {
+    float: right;
+    height: 68px;
+    margin-right: 8px;
+
+}
+
+.footer__copyright img  {
+    background-color: #1b1b1b;
+    border: 1px solid rgba(255, 203, 120, 0.1);
+    padding: 15px 20px;
+    float: left;
+    margin-right: 30px;
+}
+.footer__copyright strong {
+    padding-top: 20px;
+    display: inline-block;
+    color: #989898;
+    padding-top: 30px;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+}
+
+.footer__copyright a {
+    display: inline-block;
+    color: #989898;
+    text-decoration: none;
+    padding-top: 30px;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+
+}
+
+.footer__copyright em {
+    font-style: normal;
+    text-transform: uppercase;
 }
